@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Загружаем котиков в галерею
     const gallery = document.querySelector(".cat-grid");
     const catImages = [
-        "https://picsum.photos/id/237/400/300", 
-        "https://picsum.photos/id/238/400/300", 
-        "https://picsum.photos/id/239/400/300", 
-        "https://picsum.photos/id/240/400/300", 
-        "https://picsum.photos/id/241/400/300"
+        "https://cataas.com/cat?width=400&height=300",
+        "https://cataas.com/cat?width=401&height=300",
+        "https://cataas.com/cat?width=402&height=300",
+        "https://cataas.com/cat?width=403&height=300",
+        "https://cataas.com/cat?width=404&height=300"
     ];
 
     catImages.forEach((src) => {
