@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Загружаем котиков в галерею
     const gallery = document.querySelector(".cat-grid");
     const catImages = [
-        "https://placekitten.com/400/300",
-        "https://placekitten.com/401/300",
-        "https://placekitten.com/402/300",
-        "https://placekitten.com/403/300",
-        "https://placekitten.com/404/300"
+        "https://picsum.photos/id/237/400/300", 
+        "https://picsum.photos/id/238/400/300", 
+        "https://picsum.photos/id/239/400/300", 
+        "https://picsum.photos/id/240/400/300", 
+        "https://picsum.photos/id/241/400/300"
     ];
 
     catImages.forEach((src) => {
